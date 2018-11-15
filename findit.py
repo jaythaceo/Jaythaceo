@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
-Looking for shit to 
-find out there
+Data testing NFL shit
+maybe help some gambling
+nuts I know or my fantasy
+WHO KNOWS!!
 """
 
-print("test")
