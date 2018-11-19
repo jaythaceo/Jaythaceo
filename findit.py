@@ -2,7 +2,7 @@
 """
 Tower of Hanoi!
 """
-
+"""
 def hanoi(n, p1, p2, p3):
 	# Move n discs to move this step
 	if n == 0:
@@ -28,3 +28,22 @@ print(a,b,c)
 count = 0
 hanoi(n, a,b,c)
 print(count)
+"""
+
+fname = 'romeo.txt'
+try:
+	fhand =open(fname)
+except:
+	print("File cannot be opened", fname)
+	exit()
+
+counts = dict()
+for line in fhand:
+	words = line.split()
+	for word in words:
+		if word not in counts:
+			counts[word] = 1
+		else:
+			counts[word] += 1
+
+print(counts)
