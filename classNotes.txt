@@ -1,0 +1,33 @@
+NOTES
+
+* Irrigation system:
+** Local first **
+1. Accurate Stats
+2. Camera integration
+3. Soil sensors
+4. Humidity
+5. Cloud**/Phone app
+
+
+
+
+Flowers 
+1. Common Zinnias - Heat drought tolerate deer and rabbit resistant.
+
+2. Daylilies - All soil, little care required.
+
+3. Irises - Wide spectrum of colors
+
+4. Oriental Lilies - Low maintenance, requiring sunlight and moist soil.
+
+5. Wheat Celosia - Avoid cold soil and shade for maximum wow factor.
+
+6. California Poppies - Directly sown, no rich or wet soil.
+
+7. Gazania Hybrids - Sunny, hot, and dry spots.
+
+
+======= Rock Paper Scissors =========
+
+1. User input
+2.
