@@ -2,7 +2,8 @@
 import csv
 
 
-data = open("airbus_tree.csv")
+
+file = open("airbus_tree.csv")
 csvreader = csv.reader(file)
 header = next(csvreader)
 print(header)
