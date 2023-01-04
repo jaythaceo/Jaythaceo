@@ -1,0 +1,5 @@
+{
+  "jupyter.addGotoCodeLenses": false,
+  "python.linting.enabled": true,
+  "editor.cursorStyle": "line"
+}

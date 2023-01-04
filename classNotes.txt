@@ -27,7 +27,48 @@ Flowers
 7. Gazania Hybrids - Sunny, hot, and dry spots.
 
 
-======= Rock Paper Scissors =========
+=== Z town ===
 
-1. User input
-2.
+Zeaxanthin Note
+
+ Such excess excitation energy could, in principle, lead to the production of harmful ROS
+
+
+ Zeaxanthin is formed from its precursor violaxanthin, via the intermediate antheraxanthin up to peak light intensity, and reconverted to violaxanthin in the afternoon as light levels decline
+ ++++
+
+ Must understand LHCs?
+ Excess energy...
+ 
+When sunlight strikes a plant, specialized proteins known as light-harvesting complexes absorb light energy in the form of photons, with the help of pigments such as chlorophyll. These photons drive the production of sugar molecules, which store the energy for later use.
+
+Much previous research has shown that plants are able to quickly adapt to changes in sunlight intensity. In very sunny conditions, they convert only about 30 percent of the available sunlight into sugar, while the rest is released as heat. If this excess energy is allowed to remain in the plant cells, it creates harmful molecules called free radicals that can damage proteins and other important cellular molecules.
+
+"Plants can respond to fast changes in solar intensity by getting rid of extra energy, but what that photophysical pathway is has been debated for decades," Schlau-Cohen says.
+
+The simplest hypothesis for how plants get rid of these extra photons is that once the light-harvesting complex absorbs them, chlorophylls pass them to nearby molecules called carotenoids. Carotenoids, which include lycopene and beta-carotene, are very good at getting rid of excess energy through rapid vibration. They are also skillful scavengers of free radicals, which helps to prevent damage to cells.
+
+A similar type of energy transfer has been observed in bacterial proteins that are related to chlorophyll, but until now, it had not been seen in plants. One reason why it has been hard to observe this phenomenon is that it occurs on a very fast time scale (femtoseconds, or quadrillionths of a second). Another obstacle is that the energy transfer spans a broad range of energy levels. Until recently, existing methods for observing this process could only measure a small swath of the spectrum of visible light.
+
+In 2017, Schlau-Cohen's lab developed a modification to a femtosecond spectroscopic technique that allows them to look at a broader range of energy levels, spanning red to blue light. This meant that they could monitor energy transfer between chlorophylls, which absorb red light, and carotenoids, which absorb blue and green light.
+
+In this study, the researchers used this technique to show that photons move from an excited state, which is spread over multiple chlorophyll molecules within a light-harvesting complex, to nearby carotenoid molecules within the complex.
+
+"By broadening the spectral bandwidth, we could look at the connection between the blue and the red ranges, allowing us to map out the changes in energy level. You can see energy moving from one excited state to another," Schlau-Cohen says.
+
+Once the carotenoids accept the excess energy, they release most of it as heat, preventing light-induced damage to the cells.
+
+Boosting crop yields
+
+The researchers performed their experiments in two different environments -- one in which the proteins were in a detergent solution, and one in which they were embedded in a special type of self-assembling membrane called a nanodisc. They found that the energy transfer occurred more rapidly in the nanodisc, suggesting that environmental conditions affect the rate of energy dissipation.
+
+It remains a mystery exactly how excess sunlight triggers this mechanism within plant cells. Schlau-Cohen's lab is now exploring whether the organization of chlorophylls and carotenoids within the chloroplast membrane play a role in activating the photoprotection system.
+
+A better understanding of plants' natural photoprotection system could help scientists develop new ways to improve crop yields, Schlau-Cohen says. A 2016 paper from University of Illinois researchers showed that by overproducing all of the proteins involved in photoprotection, crop yields could be boosted by 15 to 20 percent. That paper also suggested that production could be further increased to a theoretical maximum of about 30 percent.
+
+"If we understand the mechanism, instead of just upregulating everything and getting 15 to 20 percent, we could really optimize the system and get to that theoretical maximum of 30 percent," Schlau-Cohen says.
+
+MLA
+APA
+Chicago
+Massachusetts Institute of Technology. "How plants protect themselves from sun damage: Study reveals a mechanism that plants can use to dissipate excess sunlight as heat." ScienceDaily. ScienceDaily, 10 March 2020. <www.sciencedaily.com/releases/2020/03/200310094246.htm>.

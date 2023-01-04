@@ -1,1 +1,5 @@
-csvNotes.txt
+
+Read in csv file
+extract long and lat
+save long and lat
+load long and lat to Google maps 
