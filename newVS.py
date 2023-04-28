@@ -17,3 +17,7 @@ print(end - start)
 """
 # Lets play around with some stuff
 # Maybe we can find some bugs or anything off
+words = open("newNotes.txt", 'r').read().splitlines()
+
+print(words[:10])
+

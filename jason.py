@@ -1,25 +1,37 @@
-#!/usr/bin/env python
-#import csv
-import pandas as pd
+# Lets make a bot that does some cool shit 
 
+from flask import Flask, render_template, request, jsonify
+import aiml
+import os
 
-pd.options.display.max_rows = 20000 # Allow up to 20,000 rows
-file = pd.read_csv("airbus_tree.csv")
+app = Flask(__name__)
 
-sorted_df = file.sort_values(by=["time"], ascending=False)
-print(sorted_df)
+@app.route("/")
+def hello():
+    return render_template('chat.html')
 
+@app.route("/ask", methods=['POST'])
+def ask():
+	message = request.form['messageText'].encode('utf-8').strip()
 
-"""
-file = open("airbus_tree.csv")
-csvreader = csv.reader(file)
-header = next(csvreader)
-print(header)
-rows = []
+	kernel = aiml.Kernel()
 
-for rows in csvreader:
-	rows.append(rows)
+	if os.path.isfile("bot_brain.brn"):
+	    kernel.bootstrap(brainFile = "bot_brain.brn")
+	else:
+	    kernel.bootstrap(learnFiles = os.path.abspath("aiml/std-startup.xml"), commands = "load aiml b")
+	    kernel.saveBrain("bot_brain.brn")
 
-print(rows)
-file.close()
-"""
+	# kernel now ready for use
+	while True:
+	    if message == "quit":
+	        exit()
+	    elif message == "save":
+	        kernel.saveBrain("bot_brain.brn")
+	    else:
+	        bot_response = kernel.respond(message)
+	        # print bot_response
+	        return jsonify({'status':'OK','answer':bot_response})
+
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', debug=True)

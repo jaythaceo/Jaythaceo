@@ -1,12 +1,3 @@
-Nino Brown 786-310-3112
-*** Python ***
-
-1. eval = Parse expression, evaluate as python expression,
-	return expression.
-
-
-
-*** KeyWords ***
 False
 None
 True
@@ -40,6 +31,3 @@ try
 while
 with
 yield 
-
-
-Space time is a four dimensional Hausdorff Differential Manifold on which a metric tensor is imposed that solves the Einstein Field Equations, and that metric tensor gives rise to geodesics and objects that are not experiencing any other force move along the geodesics described by that metric.
