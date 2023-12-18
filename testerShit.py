@@ -1,4 +1,5 @@
-"""// The MIT License (MIT)
+"""
+// The MIT License (MIT)
 
 // Copyright (c) YEAR NAME
 
@@ -19,7 +20,21 @@
 //  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 //  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 //  DEALINGS IN THE SOFTWARE.
+"""
 
-/* code */"""
-# Somthing is going to go here.
-# Here is where some more shit is going to go.
+# What the fuck to do?
+# Here is where some more shit is going to
+
+from timeit import default_timer as timer
+start = timer()
+def quicksort(arr):
+  if len(arr) <=1:
+    return arr
+  pivot = arr[len(arr)// 2]
+  left = [x for x in arr if x < pivot]
+  middle = [x for x in arr if x == pivot]
+  right  = [x for x in arr if x > pivot]
+  return quicksort(left) + middle +  quicksort(right)
+end = timer()
+print(quicksort([12,3,4,5,3,23]))
+print(end-start)

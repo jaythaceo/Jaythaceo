@@ -1,3 +1,8 @@
+AI safety paper clip
+
+OpenGpt has 220 billion parameters it's a 16 way mixture model with 8 sets of weights
+
+
 False
 None
 True
@@ -9,25 +14,25 @@ class
 finally
 is
 continue
-for 
+for
 lambda
-def 
-from 
+def
+from
 nonlocal
-del 
-global 
+del
+global
 not
-elif 
+elif
 if
 or
-else 
-import 
+else
+import
 pass
 except
-in 
+in
 raise
 return
 try
 while
 with
-yield 
+yield
