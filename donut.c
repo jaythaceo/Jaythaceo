@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
+// C version of Donut also made a Javascript version
 
 #define R(mul,shift,x,y) \
   _=x; \
