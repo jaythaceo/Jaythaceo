@@ -23,18 +23,46 @@
 """
 
 # What the fuck to do?
-# Here is where some more shit is going to
+# Let's make something to find apartments... Hmm 
+import requests
+from bs4 import BeautifulSoup
 
-from timeit import default_timer as timer
-start = timer()
-def quicksort(arr):
-  if len(arr) <=1:
-    return arr
-  pivot = arr[len(arr)// 2]
-  left = [x for x in arr if x < pivot]
-  middle = [x for x in arr if x == pivot]
-  right  = [x for x in arr if x > pivot]
-  return quicksort(left) + middle +  quicksort(right)
-end = timer()
-print(quicksort([12,3,4,5,3,23]))
-print(end-start)
+def fetch_apartments(location, min_price, max_price, bedrooms):
+    url = f'https://{location}.craigslist.org/search/apa?min_price={min_price}&max_price={max_price}&bedrooms={bedrooms}'
+    response = requests.get(url)
+    soup = BeautifulSoup(response.text, 'html.parser')
+    listings = soup.find_all('li', class_='result-row')
+
+    apartments = []
+    for listing in listings:
+        title = listing.find('a', class_='result-title hdrlnk').text
+        price = listing.find('span', class_='result-price').text
+        neighborhood = listing.find('span', class_='result-hood')
+        neighborhood = neighborhood.text.strip() if neighborhood else 'N/A'
+        link = listing.find('a', class_='result-title hdrlnk')['href']
+
+        apartments.append({
+            'title': title,
+            'price': price,
+            'neighborhood': neighborhood,
+            'link': link
+        })
+
+    return apartments
+
+# Specify your search parameters
+location = 'washingtondc'  # Craigslist subdomain, e.g., 'washingtondc', 'newyork', etc.
+min_price = 1500
+max_price = 2250
+bedrooms = 2
+
+# Fetch and display the apartments
+apartments = fetch_apartments(location, min_price, max_price, bedrooms)
+for apt in apartments:
+    print(f"Title: {apt['title']}")
+    print(f"Price: {apt['price']}")
+    print(f"Neighborhood: {apt['neighborhood']}")
+    print(f"Link: {apt['link']}")
+    print('-' * 40)
+
+
