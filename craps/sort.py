@@ -1,12 +1,10 @@
 
+# Let's do some stuff here.
+# Now maybe a class is needed?
 
-"""
-Let's begin with the problem.
+class Dog:
+  def __init__(self, name):
+    self.name = name
 
-
-
-"""
-if __name__ == '__main__':
-    title()
-    the_chip()
-    problem()
+p1 = Dog("jason")
+print(p1)
