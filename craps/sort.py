@@ -2,9 +2,6 @@
 # Let's do some stuff here.
 # Now maybe a class is needed?
 
-class Dog:
-  def __init__(self, name):
-    self.name = name
-
-p1 = Dog("jason")
-print(p1)
+a = [12,34,54,66,53]
+a.count(a)
+#print(a)
