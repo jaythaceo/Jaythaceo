@@ -1,6 +1,11 @@
 
 # Something to do this morning 
-a = 21
-b = 54
 
-print(min(a,b))
+print("Hello, World")
+print("Hello", "World")
+print(2+3)
+print("2+3")
+print("2","+","3")
+print(2 // 3)
+
+
