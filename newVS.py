@@ -20,4 +20,3 @@ print(end - start)
 words = open("airbus_tree.csv", 'r').read().splitlines()
 
 print(words[:10])
-

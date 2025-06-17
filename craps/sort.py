@@ -1,23 +1,52 @@
 
 # Let's do some stuff here.
 # Now maybe a class is needed?
+import random
 
-def bubble_sort(arr):
-  """" Sorts a list using bubblesort """
-  n = len(arr)
+def choose_word():
+  words = ["Sopranos", "Tony", "Sil", "Paulie", "Artie", "Pussy", "Bada Bing"]
+  return random.choice(words)
 
-  for i in range(n):
-    for j in range(0, n - i - 1):
-      if arr[j] > arr[j +1]:
-        arr[j], arr[j +1] = arr[j +1], arr[j]
+def display_words(word,guessed_letters):
+  display = ""
+  for letter in word:
+    if letter in guessed_letters:
+      display += letter
+    else:
+      display += "__"
+  return display
+
+def hangman():
+  word = choose_word()
+  guessed_letters = []
+  attempts = 6
+  print("Welcome to Hangman!")
+
+  while attempts > 0:
+    print("\nWord:", display_words(word, guessed_letters))
+    print("Attempts left:", attempts)
+    guess = input("Guess a letter: ").lower()
+
+    if len(guess) != 1 or not guess.isalpha():
+      print("Invalid input. Please enter a single letter.")
+      continue
+    if guess in guessed_letters:
+      print("You already guessed that letter.")
+      continue
+
+    guessed_letters.append(guess)
+
+    if guess not in word:
+      attempts -= 1
+      print("Incorrect guess.")
+
+    if "__" not in display_words(word, guessed_letters):
+      print("\nCongratulations! you guessed the word:", word)
+      return
+    
+    print("\nYou ran out of attempts. The word was:", word)
+    print("Game over!")
 
 
-  return arr
- 
-
-
-
-my_list = [123,34,254,7866,53]
-print("Unsorted list:", my_list)
-sorted_list = bubble_sort(my_list)
-print("Sorted list:", sorted_list)
+if __name__ == "__main__":
+  hangman()
