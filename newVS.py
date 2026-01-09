@@ -2,6 +2,7 @@
 """A simple chaotic function demonstration
 This function takes a number between 0 and 1 and applies the logistic map
     repeatedly to demonstrate chaotic behavior.
+    
 def main():
     print("Lets do a chaotic function")
     x = eval(input("Enter a number between 0 and 1: "))
