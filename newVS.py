@@ -13,4 +13,18 @@ def main():
 main()
 
 """
+"""
+A simple chaotic function demonstration
+This function takes a number between 0 and 1 and applies the logistic map
+    repeatedly to demonstrate chaotic behavior.
+
+    I need something to do. I need to make money now 
+    I have to get somewhere this is my last chance, Summer is all I have to make it and have love.
+    NO ONE will love me again after this I will be all alone in the world with
+    zero my intire life I have built will be completely gone.
+    
+
+"""
+
+# Test run
 
