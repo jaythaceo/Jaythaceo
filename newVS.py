@@ -27,4 +27,9 @@ This function takes a number between 0 and 1 and applies the logistic map
 """
 
 # Test run
+meter = 3.281
+yard = .914
+kilometer = .621
+mile = 1.609
 
+print("A kilometer is this distence is miles,", kilometer)
