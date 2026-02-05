@@ -2,7 +2,8 @@
 """A simple chaotic function demonstration
 This function takes a number between 0 and 1 and applies the logistic map
     repeatedly to demonstrate chaotic behavior.
-    
+    """
+
 def main():
     print("Lets do a chaotic function")
     x = eval(input("Enter a number between 0 and 1: "))
@@ -12,7 +13,6 @@ def main():
     
 main()
 
-"""
 """
 A simple chaotic function demonstration
 This function takes a number between 0 and 1 and applies the logistic map
@@ -32,4 +32,4 @@ yard = .914
 kilometer = .621
 mile = 1.609
 
-print("A kilometer is this distence is miles,", kilometer)
+print("A kilometer is this distance in miles,",kilometer)
