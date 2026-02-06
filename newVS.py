@@ -21,15 +21,14 @@ This function takes a number between 0 and 1 and applies the logistic map
     I need something to do. I need to make money now 
     I have to get somewhere this is my last chance, Summer is all I have to make it and have love.
     NO ONE will love me again after this I will be all alone in the world with
-    zero my intire life I have built will be completely gone.
+    zero my entire life I have built will be completely gone.
     
 
 """
-
-# Test run
-meter = 3.281
-yard = .914
-kilometer = .621
-mile = 1.609
-
-print("A kilometer is this distance in miles,",kilometer)
+print("That was a choatic function demonstration but now I need to do something else.")
+print("Now on to the area of a circle.")
+pi = 3.14159
+radius = 2.2
+area = pi*(radius ** 2)
+circumference = 2 * pi * radius
+print("The area of the circle is:", area)
