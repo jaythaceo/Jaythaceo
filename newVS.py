@@ -25,10 +25,15 @@ This function takes a number between 0 and 1 and applies the logistic map
     
 
 """
+print("  ")
 print("That was a choatic function demonstration but now I need to do something else.")
+print("  ")
 print("Now on to the area of a circle.")
 pi = 3.14159
 radius = 2.2
 area = pi*(radius ** 2)
 circumference = 2 * pi * radius
+print("The radius is ", radius)
+print("The circumference is ", circumference)
 print("The area of the circle is:", area)
+
