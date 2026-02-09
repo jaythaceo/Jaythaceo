@@ -68,7 +68,4 @@ A better understanding of plants' natural photoprotection system could help scie
 
 "If we understand the mechanism, instead of just upregulating everything and getting 15 to 20 percent, we could really optimize the system and get to that theoretical maximum of 30 percent," Schlau-Cohen says.
 
-MLA
-APA
-Chicago
-Massachusetts Institute of Technology. "How plants protect themselves from sun damage: Study reveals a mechanism that plants can use to dissipate excess sunlight as heat." ScienceDaily. ScienceDaily, 10 March 2020. <www.sciencedaily.com/releases/2020/03/200310094246.htm>.
+Massachusetts Institute of Technology. "How plants protect themselves from sun damage: Study reveals a mechanism that plants can use to dissipate excess sunlight as heat." .
