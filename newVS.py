@@ -41,6 +41,3 @@ print("Now some for loops!")
 
 looper = [12,2,34,564,23]
 print(looper)
-
-for i in looper:
-    print(i[1])
