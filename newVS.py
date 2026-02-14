@@ -1,4 +1,3 @@
-# Lets do something
 """A simple chaotic function demonstration
 This function takes a number between 0 and 1 and applies the logistic map
     repeatedly to demonstrate chaotic behavior.
@@ -39,7 +38,7 @@ print("The area of the circle is:", area)
 print("  ")
 print("Now some for loops!")
 
-looper = [12,2,34,564,23]
+looper = [12,2,34,564,346]
 print(looper)
 print(*looper)
 print(*looper, sep = ', ')
