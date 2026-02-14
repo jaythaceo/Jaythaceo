@@ -24,6 +24,7 @@ This function takes a number between 0 and 1 and applies the logistic map
     
 
 """
+"""
 print("  ")
 print("That was a choatic function demonstration but now I need to do something else.")
 print("  ")
@@ -39,6 +40,10 @@ print("  ")
 print("Now some for loops!")
 
 looper = [12,2,34,564,346]
+testString = "This is a test string"
 print(looper)
 print(*looper)
 print(*looper, sep = ', ')
+print(testString)
+
+"""

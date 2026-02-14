@@ -22,6 +22,7 @@ var asciiframe = () => {
     // j <=> theta
     var ct = Math.cos(j),
       st = Math.sin(j);
+    for (i = 0; i < 6.28; i += 0.02) {
       // i <=> phi
       var sp = Math.sin(i),
         cp = Math.cos(i),
