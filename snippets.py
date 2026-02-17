@@ -2,8 +2,13 @@
 
 # List Comprehensions
 squares = [x**2 for x in range(10)]
-print(squares)
+print("Squared numbers.",squares)
 
 #lambda functions
 add = lambda x, y: x + y
 print(add(5, 3))
+
+# Map, Filter, and Reduce Functions
+numbers = [1, 2, 3, 4, 5]
+squared = list(map(lambda x: x**2, numbers))
+print(squared)
