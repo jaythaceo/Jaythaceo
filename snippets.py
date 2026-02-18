@@ -14,3 +14,8 @@ squared = list(map(lambda x: x**2, numbers))
 print(squared)
 even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 print(even_numbers)
+
+# Filter function filters the items of a sequence based on a function that returns a boolean value.
+from functools import reduce
+product = reduce(lambda x, y: x * y, numbers)
+print(product)
