@@ -19,3 +19,9 @@ print(even_numbers)
 from functools import reduce
 product = reduce(lambda x, y: x * y, numbers)
 print(product)
+
+# Reduce function applies a rolling computation to sequential pairs of values in a list. In this case, it multiplies all the numbers together to get the product.
+from functools import reduce
+numbers = [1, 2, 3, 4, 5]
+product = reduce(lambda x, y: x * y, numbers)
+print(product)
