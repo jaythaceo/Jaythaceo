@@ -25,3 +25,12 @@ from functools import reduce
 numbers = [1, 2, 3, 4, 5]
 product = reduce(lambda x, y: x * y, numbers)
 print(product)
+
+# Decorators are a way to modify the behavior of functions or classes. They allow you to wrap another function to extend its behavior without modifying its code.
+import time
+
+def timing_decorator(func):
+  def wrapper(*args, **kwargs):
+    start_time = time.time()
+    result = func(*args, **kwargs)
+    end_time = time.time()
