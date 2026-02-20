@@ -43,3 +43,4 @@ def timing_decorator(func):
 def slow_function():
   time.sleep(2)
 slow_function()
+
