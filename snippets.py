@@ -43,3 +43,13 @@ def timing_decorator(func):
 def slow_function():
   time.sleep(2)
 slow_function()
+
+# Context manager
+from contextlib import contextmanager
+@contextmanager
+def my_context():
+  print("Entering my context")
+  yield
+  print("Exiting my context")
+with my_context():
+  print("Inside my context")
