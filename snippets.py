@@ -45,7 +45,10 @@ def slow_function():
 slow_function()
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 299f7d1d63fd18fd12784ddea4ecd4dbfa9d07e7
 # Context manager
 from contextlib import contextmanager
 @contextmanager
@@ -55,4 +58,7 @@ def my_context():
   print("Exiting my context")
 with my_context():
   print("Inside my context")
+<<<<<<< HEAD
+>>>>>>> 299f7d1d63fd18fd12784ddea4ecd4dbfa9d07e7
+=======
 >>>>>>> 299f7d1d63fd18fd12784ddea4ecd4dbfa9d07e7
