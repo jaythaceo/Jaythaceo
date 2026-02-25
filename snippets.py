@@ -56,3 +56,9 @@ with my_context():
   print("Inside my context")
 
 # Generators are a type of iterable, like lists or tuples. However, unlike lists, generators do not store their contents in memory. Instead, they generate items on-the-fly as you iterate over them.
+def fibonacci(n):
+  a, b = 0, 1
+  for _ in range(n):
+    yield a
+    a, b = b, a + b
+  
