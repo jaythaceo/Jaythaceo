@@ -61,4 +61,5 @@ def fibonacci(n):
   for _ in range(n):
     yield a
     a, b = b, a + b
-  
+fib = fibonacci(10)
+print(list(fib))
