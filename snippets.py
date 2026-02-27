@@ -77,3 +77,19 @@ urls = [
     'http://www.facebook.com',
     'http://www.X.com',
 ]
+
+def download_file(url):
+  urllib.request.urlretrieve(url, url.split("/")[-1])
+
+# Create and start threads 
+threads = []
+for url in urls:
+  t = threading.Thread(target=download_file, args=(url,))
+  t.start
+  threads.append(t)
+
+# Wait for all threads to complete
+for t in threads:
+  t.join() 
+
+print("All downloads completed.")
