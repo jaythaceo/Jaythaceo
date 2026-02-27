@@ -93,3 +93,13 @@ for t in threads:
   t.join() 
 
 print("All downloads completed.")
+
+# Example of using processes to calculate the factorial of several numbers:
+import multiprocessing
+
+def factorial(n):
+  if n == 0:
+    return 1
+  else:
+    return n * factorial(n-1)
+  
