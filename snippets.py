@@ -66,3 +66,14 @@ def fibonacci(count):
 fib = fibonacci(10)
 for num in fib:
   print(num)
+
+# Multithreading and Multiprocessing. Python provides the threading and multiprocessing modules to work with threads and processes, respectively. Threads are lightweight, but they have limitations due to the Global Interpreter Lock (GIL) in CPython. Processes, on the other hand, can take full advantage of multiple CPU cores but have higher overhead.
+
+import threading
+import urllib.request
+
+urls = [
+    'http://www.google.com',
+    'http://www.facebook.com',
+    'http://www.X.com',
+]
