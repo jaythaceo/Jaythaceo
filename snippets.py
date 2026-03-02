@@ -97,8 +97,12 @@ print("All downloads completed.")
 # Example of using processes to calculate the factorial of several numbers:
 import multiprocessing
 
-def factorial(n):
-  if n == 0:
-    return 1
-  else:
-    return n * factorial(n-1)
+def factorial(n, return_dict):
+  result = 1
+  for i in range(1, n + 1):
+    result *= i
+  return_dict[n] = result
+
+numbers = [5,7,10]
+
+# Create and start processes
