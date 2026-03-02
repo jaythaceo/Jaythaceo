@@ -106,3 +106,19 @@ def factorial(n, return_dict):
 numbers = [5,7,10]
 
 # Create and start processes
+processes = []
+manager = multiprocessing.Manager()
+return_dict = manager.dict()
+
+for num in numbers:
+  p = multiprocessing.Process(target=factorial, args=(num, return_dict))
+  p.start()
+  processes.append(p)
+
+# Wait for all processes to complete
+for p in processes:
+  p.join()
+
+print("Factorials:")
+for num in numbers:
+  print(f"{num}! = {return_dict[num]}")
