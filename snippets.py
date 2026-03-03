@@ -151,4 +151,10 @@ try:
   result = 1 / 0
 except ZeroDivisionError:
   print("Cannot divide by zero.")
-  
+
+# Catching multiple exceptions:
+try:
+  num = int(input("Enter a number: "))
+  result = 1 / "string"
+except (ValueError, TypeError):
+  print("Invalid input. Please enter a valid number.")
