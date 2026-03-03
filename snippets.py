@@ -122,3 +122,14 @@ for p in processes:
 print("Factorials:")
 for num in numbers:
   print(f"{num}! = {return_dict[num]}")
+
+# Working with files.
+
+# Writing texrt to a file.
+with open('file.txt', 'w') as file:
+  file.write("Hello, World!\n")
+
+# Reading text from a file.
+with open('file.txt', 'r') as file:
+  content = file.read()
+  print(content)
