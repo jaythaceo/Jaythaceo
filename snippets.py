@@ -145,3 +145,10 @@ if re.match(email_pattern, email):
   print("Valid email address.")
 else:
   print("Invalid email address.")
+
+# Exception Handling. Python uses try-except blocks to handle exceptions, allowing you to manage errors gracefully without crashing your program.
+try:
+  result = 1 / 0
+except ZeroDivisionError:
+  print("Cannot divide by zero.")
+  
