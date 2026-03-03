@@ -133,3 +133,15 @@ with open('file.txt', 'w') as file:
 with open('file.txt', 'r') as file:
   content = file.read()
   print(content)
+
+
+# Regular Expressions. The re module in Python provides support for regular expressions, which are a powerful tool for matching patterns in strings.
+import re
+
+email_pattern = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+email = "user@example.com"
+
+if re.match(email_pattern, email):
+  print("Valid email address.")
+else:
+  print("Invalid email address.")
