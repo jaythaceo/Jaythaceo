@@ -158,3 +158,12 @@ try:
   result = 1 / "string"
 except (ValueError, TypeError):
   print("Invalid input. Please enter a valid number.")
+
+
+# You can use finally to execute code regardless of whether an exception occurred or not:
+try:
+  result = 1 / 2
+except ZeroDivisionError:
+  print("Cannot divide by zero.")
+finally:
+  print("This will always be executed.")
