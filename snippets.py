@@ -198,4 +198,13 @@ class Cat(Animal):
 
 
 dog = Dog("Buddy")
-cat 
+cat = Cat("Whiskers")
+
+print(dog.speak())
+print(cat.speak())
+
+# Properties
+claas Circle:
+  def __init__(self, radius):
+    self._radius = radius
+    
