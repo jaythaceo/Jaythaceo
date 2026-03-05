@@ -179,3 +179,23 @@ class Dog:
 
 my_dog = Dog("Buddy", "Golden Retriever")
 print(my_dog.bark())
+
+# inheritance
+class Animal:
+  def __init__(self, name):
+    self.name = name
+
+  def speak(self):
+    raise NotImplementedError("Subclasses must implement this method")
+
+class Dog(Animal):
+  def speak(self):
+    return f"{self.name} says Woof!"
+
+class Cat(Animal):
+  def speak(self):
+    return F"{self.name} says Meow!"
+
+
+dog = Dog("Buddy")
+cat 
