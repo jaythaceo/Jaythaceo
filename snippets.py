@@ -176,3 +176,6 @@ class Dog:
 
   def bark(self):
     return f"{self.name} says Woof!"
+
+my_dog = Dog("Buddy", "Golden Retriever")
+print(my_dog.bark())
