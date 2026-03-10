@@ -1,21 +1,19 @@
 
-# Something to do this morning 
+"""
+Lets do something wuth apis?
+Like weather, news, stocks, etc?
+Ok weather is a good one, lets do that.
+"""
 
-def quick_sort(sequence):
-  lesser =[]
-  equal = []
-  greater = []
-  if len(sequence) <= 1:
-    return sequence
-  pivot = sequence[0]
-  for element in sequence:
-    if element < pivot:
-      lesser.append(element)
-    elif element > pivot:
-      greater.append(element)
-    else:
-      equal.append(element)
+import requests
 
-  lesser = quick_sort(lesser)
-  greater = quick_sort(greater)
-  return lesser + equal + greater
+def get_weather(city):
+  city = city.replace(" ", "+")
+  url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid=YOUR_API_KEY&units=metric"
+  response = requests.get(url)
+  if response.status_code == 200:
+    data = response.json()
+    temp = data['main']['temp']
+    description = data['weather'][0]['description']
+    return f"The current temperature in {city.replace('+', ' ')} is {temp}°C with {description}."
+
