@@ -227,5 +227,9 @@ class Circle:
     import math
     return math.pi * (self.radius ** 2)
 
+circle = Circle(5)
+print(f"Radius: {circle.radius}")
+print(f"Diameter: {circle.diameter}")
+print(f"Area: {circle.area:.2f}")
 
 
