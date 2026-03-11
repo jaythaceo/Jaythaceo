@@ -1,8 +1,9 @@
 
 """
-Lets do something wuth apis?
+Lets do something with apis?
 Like weather, news, stocks, etc?
 Ok weather is a good one, lets do that.
+Maybe not weather it's no fun
 """
 
 import requests
