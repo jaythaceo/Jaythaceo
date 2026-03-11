@@ -1,4 +1,5 @@
-# Some quick code snippets
+"""# Some quick code snippets.
+# Snippets are small pieces of reusable code that can be easily inserted into a larger codebase. They are often used to save time and reduce the likelihood of errors by providing a quick way to perform common tasks."""
 
 # List Comprehensions
 squares = [x**2 for x in range(10)]
@@ -232,6 +233,4 @@ print(f"Radius: {circle.radius}")
 print(f"Diameter: {circle.diameter}")
 print(f"Area: {circle.area:.2f}")
 
-
-# Lambda functions are anonymous functions defined with the lambda keyword. They can take any number of arguments but can only have one expression.
 
