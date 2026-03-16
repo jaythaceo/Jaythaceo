@@ -1,5 +1,5 @@
 """# Some quick code snippets.
-# Snippets are small pieces of reusable code that can be easily inserted into a larger codebase. They are often used to save time and reduce the likelihood of errors by providing a quick way to perform common tasks."""
+# Snippets are small pieces of reusable code that can be easily inserted into a larger codebase. They are often used to save time and reduce the likelihood of errors by providing a quick way to perform common tasks.""" 
 
 # List Comprehensions
 squares = [x**2 for x in range(10)]
@@ -234,3 +234,4 @@ print(f"Diameter: {circle.diameter}")
 print(f"Area: {circle.area:.2f}")
 
 # Ending snippits going to IOS development next tune in.
+# New IOS repository created. Check it out for Swift and iOS development resources!
