@@ -3,6 +3,7 @@
 
 import os,random,time,colorama
 
+
 class SlotMachine:
     """Here is a slot machine class that'll work in your script - you'll have to set it up yourself, though. There's also a built-in slots minigame in this module that can be executed and played in the terminal, in case you missed it.\n
     You can have as many slot machines as you can justify. To use, start by assigning this class to a variable. From there, set up your items and symbols (numbers, characters, etc) for the machine to make use of, and then set up some slot reels and give them items. You'll figure out the rest - luck is on your side, I'm sure."""
