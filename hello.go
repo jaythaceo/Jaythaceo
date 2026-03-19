@@ -3,9 +3,15 @@ package main
 import "fmt"
 
 func main() {
+
+	# This is a comment
+	# print fmt
+	fmt.Println("Hello World")
+
 	var a int = 222
 	var b int = 23
 
+	# if/else statement
 	if a > b {
 		fmt.Println("A is less than b")
 	} else {
@@ -13,5 +19,4 @@ func main() {
 	}
 
 
-	fmt.Println("Hello, Jay!")
 }
