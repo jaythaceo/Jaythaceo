@@ -18,5 +18,10 @@ func main() {
 		fmt.Println(("A is not less than b"))
 	}
 
+	# for loop
+	for i := 0; i < 5; i++ {
+		fmt.Println(i)
+	}
+
 
 }
