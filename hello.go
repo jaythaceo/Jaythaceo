@@ -1,4 +1,5 @@
 package main
+"""This is a simple Go program that demonstrates basic syntax, including comments, variable declaration, if/else statements, and for loops."""
 
 import "fmt"
 
