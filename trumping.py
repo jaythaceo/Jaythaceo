@@ -1,5 +1,6 @@
  #!/usr/bin/env python3
 # Slot machine using python3
+# Use the SlotMachine class to set up your own slot machine in your script, or run the built-in slots minigame in the terminal. The minigame is a simple 3-reel, 3-row machine with 5 paylines and 6 items, but you can set up your own machine with as many reels, rows, items and paylines as you like. The SlotMachine class is pretty flexible and should be able to accommodate most of your slot machine needs - just set it up and use it how you like. Good luck!
 
 import os,random,time,colorama
 
