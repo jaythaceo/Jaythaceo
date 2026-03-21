@@ -24,5 +24,11 @@ func main() {
 		fmt.Println(i)
 	}
 
+	var arr = [5]int{1, 2, 3, 4, 5}
+	# for loop to iterate over array
+	for i := 0; i < len(arr); i++ {
+		fmt.Println(arr[i])
+	}
+
 
 }
