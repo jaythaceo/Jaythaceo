@@ -30,5 +30,10 @@ func main() {
 		fmt.Println(arr[i])
 	}
 
+	# for loop to iterate over array using range
+	for index, value := range arr {
+		fmt.Printf("Index: %d, Value: %d\n", index, value)
+	}
+	
 
 }
