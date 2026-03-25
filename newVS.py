@@ -1,8 +1,9 @@
+# Python program that demonstrates a chaotic function, calculates the area of a circle, and uses for loops.
+
 """A simple chaotic function demonstration
 This function takes a number between 0 and 1 and applies the logistic map
     repeatedly to demonstrate chaotic behavior.
     """
-
 def main():
     print("Lets do a chaotic function")
     x = .25
@@ -41,3 +42,4 @@ print(looper)
 print(*looper)
 print(*looper, sep = ', ')
 print(testString)
+
