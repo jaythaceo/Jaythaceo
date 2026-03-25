@@ -34,6 +34,11 @@ func main() {
 	for index, value := range arr {
 		fmt.Printf("Index: %d, Value: %d\n", index, value)
 	}
-	
 
+	# for loop to iterate over array using range and ignore index
+	for _, value := range arr {
+		fmt.Printf("Value: %d\n", value)
+	}
+
+	
 }
