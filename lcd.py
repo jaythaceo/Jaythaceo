@@ -1,3 +1,4 @@
+# This a program that loads real and fake texts from a corpus, encodes them using a tokenizer, and creates a PyTorch dataset for training a classifier to distinguish between real and fake texts. The dataset supports various options such as maximum sequence length, token dropout, and epoch size.
 import json
 import numpy as np
 from typing import List
