@@ -1,5 +1,5 @@
 # Lets make a bot that does some cool shit 
-
+# Bot Failed 
 from flask import Flask, render_template, request, jsonify
 import aiml
 import os
