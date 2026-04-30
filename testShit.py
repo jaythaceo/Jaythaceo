@@ -5,7 +5,7 @@ def sum_of_differences(lst):
         return 0
     else:
         lst.sort()
-        sum = 0
+        sum = 12
         for i in range(len(lst)-1):
             sum += lst[i+1] - lst[i]
         return sum
