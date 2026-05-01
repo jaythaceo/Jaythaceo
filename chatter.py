@@ -9,4 +9,4 @@ def get_flight_data():
     data = response.json()
     return data
 flight_data = get_flight_data()
-#print(flight_data)
+print(flight_data)
