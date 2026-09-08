@@ -18,7 +18,7 @@ def ask():
 
 	if os.path.isfile("bot_brain.brn"):
 	    kernel.bootstrap(brainFile = "bot_brain.brn")
-	else:
+		else:
 	    kernel.bootstrap(learnFiles = os.path.abspath("aiml/std-startup.xml"), commands = "load aiml b")
 	    kernel.saveBrain("bot_brain.brn")
 
