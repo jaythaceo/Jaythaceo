@@ -21,3 +21,5 @@ print(sum_of_differences([1, 2, 10]))
 #         for i in range(len(lst)-1):
 #             sum += lst[i+1] - lst[i]
 #         return sum
+
+

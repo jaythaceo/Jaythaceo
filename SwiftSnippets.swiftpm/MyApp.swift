@@ -8,3 +8,6 @@ struct MyApp: App {
         }
     }
 }
+
+var myVariable: String = "Hello, World!"
+print(myVariable)

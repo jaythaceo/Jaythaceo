@@ -6,7 +6,7 @@ import bisect
 
 
 # precompute, bitmasks, sort, binary search
-def next_permutation(nums, begin, end):
+def next_permutation(nums, begin, end):¡
     def reverse(nums, begin, end):
         left, right = begin, end-1
         while left < right:
